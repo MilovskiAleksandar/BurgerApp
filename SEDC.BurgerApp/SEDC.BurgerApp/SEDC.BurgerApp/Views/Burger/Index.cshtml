@@ -1,0 +1,22 @@
+﻿@using SEDC.BurgerApp.ViewModels.Burgers;
+@model List<BurgerListViewModel>
+<div>
+    Burgers
+</div>
+<div class="text-center">
+    <a asp-controller="Burger" asp-action="CreateBurger">Add burger</a>
+</div>
+@foreach (BurgerListViewModel burgerModel in Model)
+{
+    <div class="card text-white bg-success mb-3" style="max-width: 18rem; margin-left:10px;">
+        <div class="card-body">
+            <h5 class="card-title">Burger name: @burgerModel.BurgerName</h5>
+        </div>
+        <div class="card-footer bg-transparent border-success"> <strong>Price: @burgerModel.BurgerPrice DEN</strong></div>
+        <div class="card-footer bg-transparent border-success"> <strong>Vegetarian: @burgerModel.IsVegetarian</strong></div>
+        <div class="card-footer bg-transparent border-success"> <strong>Vegan: @burgerModel.IsVegan</strong></div>
+        <div class="card-footer bg-transparent border-success"> <strong>Has fries: @burgerModel.HasFries</strong></div>
+        <a asp-controller="Burger" asp-action="Details" asp-route-id="@burgerModel.Id">Details</a>
+        <a asp-controller="Burger" asp-action="DeleteBurger" asp-route-id="@burgerModel.Id">Delete</a>
+    </div>
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp", "SEDC.BurgerApp\SEDC.BurgerApp.csproj", "{C24FF49B-C938-4A12-95A5-EAE398EEBAF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp.DataAccess", "SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.DataAccess.csproj", "{E62D8B2A-3EF4-4D60-AD67-51030A63A6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp.Domain", "SEDC.BurgerApp.Domain\SEDC.BurgerApp.Domain.csproj", "{7D4AA708-4956-4790-9F26-FB6869554D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp.Services", "SEDC.BurgerApp.Services\SEDC.BurgerApp.Services.csproj", "{A57DA86E-8CE0-420D-BF16-683B3277404D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp.ViewModels", "SEDC.BurgerApp.ViewModels\SEDC.BurgerApp.ViewModels.csproj", "{CB96AA01-FDA2-4B63-BA90-02694CBCA91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.BurgerApp.Mappers", "SEDC.BurgerApp.Mappers\SEDC.BurgerApp.Mappers.csproj", "{78D72531-17BD-40FC-A9F5-86C62F47D86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24FF49B-C938-4A12-95A5-EAE398EEBAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24FF49B-C938-4A12-95A5-EAE398EEBAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24FF49B-C938-4A12-95A5-EAE398EEBAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24FF49B-C938-4A12-95A5-EAE398EEBAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62D8B2A-3EF4-4D60-AD67-51030A63A6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62D8B2A-3EF4-4D60-AD67-51030A63A6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62D8B2A-3EF4-4D60-AD67-51030A63A6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62D8B2A-3EF4-4D60-AD67-51030A63A6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4AA708-4956-4790-9F26-FB6869554D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4AA708-4956-4790-9F26-FB6869554D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4AA708-4956-4790-9F26-FB6869554D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4AA708-4956-4790-9F26-FB6869554D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57DA86E-8CE0-420D-BF16-683B3277404D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57DA86E-8CE0-420D-BF16-683B3277404D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57DA86E-8CE0-420D-BF16-683B3277404D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57DA86E-8CE0-420D-BF16-683B3277404D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB96AA01-FDA2-4B63-BA90-02694CBCA91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB96AA01-FDA2-4B63-BA90-02694CBCA91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB96AA01-FDA2-4B63-BA90-02694CBCA91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB96AA01-FDA2-4B63-BA90-02694CBCA91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D72531-17BD-40FC-A9F5-86C62F47D86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D72531-17BD-40FC-A9F5-86C62F47D86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D72531-17BD-40FC-A9F5-86C62F47D86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D72531-17BD-40FC-A9F5-86C62F47D86D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E1FF1B-FAF1-4530-9C7F-102EF5BB4AB9}
+	EndGlobalSection
+EndGlobal

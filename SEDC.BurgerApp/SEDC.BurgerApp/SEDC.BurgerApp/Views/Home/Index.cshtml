@@ -1,0 +1,29 @@
+﻿@using SEDC.BurgerApp.ViewModels.Home;
+@model HomeDetailsViewModel
+
+<h2>Welcome to the most popular burger app!</h2>
+<h3>We have already served @Model.NumberOfOrdersInTheApp orders</h3>
+@if (Model.MostPopularBurger != null && Model.MostPopularBurger.Count > 0)
+{
+    <h2>Most popular burger so far is: @Model.MostPopularBurger[0]</h2>
+}
+else
+{
+    <p>Still not burgers.</p>
+}
+
+<h4>Average price of an order: @Model.AveragePrice</h4>
+
+<h4>Locations: </h4>
+@if (Model.Locations != null && Model.Locations.Count > 0)
+{
+    foreach (var location in Model.Locations)
+    {
+        <p>@location</p>
+    }
+}
+else
+{
+    <p>There is not locations.</p>
+}
+
